@@ -4,13 +4,13 @@
 //
 resolution = 60;
 
-mh_x_offset = 41/2;
+mh_x_offset = 73/2; // 41mm = side, 73mm = front
 height = 20;
 m5_hole = 5.5; // m5
 pen_hole = 12.5; // sharpie + 0.5mm
 pen_wall = 5;
 thickness = 3;
-width = 55;
+width = mh_x_offset*2 + 14;
 roundover = 4;
 m4_thickness = 2.9;
 m4_width = 6.9;
